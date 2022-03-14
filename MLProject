@@ -1,7 +1,9 @@
-name: CNN-app
+name: Dog-Cat-Classification-with-MLflow
 
 conda_env: conda.yaml 
 
 entry_points: 
     main: 
-    command: "python main.py"
+        command: "python main.py"
+    get_data: 
+
