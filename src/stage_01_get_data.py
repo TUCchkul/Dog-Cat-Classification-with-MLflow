@@ -31,7 +31,7 @@ def main(config_path):
         logging.info(f"filename: \n{filename} created with info \n{headers}")
     else:
         logging.info(f"filename:{data_file} already present.")
-    ###################### UnZnziping the data################################
+    ###################### Unzipping the data ################################
     unzip_data_dir=config["data"]["unzip_data_dir"]
     if not os.path.exists(unzip_data_dir):
         create_directories(unzip_data_dir)
